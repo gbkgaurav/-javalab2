@@ -102,57 +102,24 @@ class ThreeConstructors{
 
 # Write a program to implement uses of Abstract Class .
 
-'''package com.java.abstractTest.example;
-abstract class Shape
-{
- double a, b;
- Shape(double d1, double d2)
- {
-  a = d1;
-  b = d2;
- }
- abstract double area();
-}
-
-class Circle extends Shape
-{
- Circle(double radius)
- {
-  super(radius, 0); 
- }
- double area()
- {
-  return Math.PI * a * a;
- }
-}
-
-class Rectangle extends Shape
-{
- Rectangle(double length, double breadth)
- {
-  super(length, breadth);
- }
- double area()
- {
-  return a * b;
- }
-}
-
-public class AbstractTest
-{
- public static void main(String[] args)
- {
-  Shape shape;
-  shape = new Circle(5);
-  System.out.println("Area of circle =" +
-    " " + shape.area());
-  
-  shape = new Rectangle(5, 10);
-  System.out.println("Area of rectangle = " 
-  + shape.area());
- }
-}
 '''
+abstract class Shape{  
+abstract void draw();  
+}  
+//In real scenario, implementation is provided by others i.e. unknown by end user  
+class Rectangle extends Shape{  
+void draw(){System.out.println("drawing rectangle");}  
+}  
+class Circle1 extends Shape{  
+void draw(){System.out.println("drawing circle");}  
+}  
+//In real scenario, method is called by programmer or user  
+class TestAbstraction1{  
+public static void main(String args[]){  
+Shape s=new Circle1();//In a real scenario, object is provided through method, e.g., getShape() method  
+s.draw();  
+}  
+}  
 
 
 # Write a program to achieve multiple inheritance in java
