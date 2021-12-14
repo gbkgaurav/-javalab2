@@ -26,7 +26,7 @@ class ThreeConstructors{
 
 #Write a program to implement stack using array
 
-'''public class Stack<E> {
+'''     public class Stack<E> {
 	private E[] arr = null;
 	private int CAP;
 	private int top = -1;
