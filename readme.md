@@ -25,8 +25,8 @@ class ThreeConstructors{
 
 
 #Write a program to implement stack using array
-'''
-public class Stack<E> {
+
+'''public class Stack<E> {
 	private E[] arr = null;
 	private int CAP;
 	private int top = -1;
@@ -95,15 +95,15 @@ public class Stack<E> {
 		stack.pop();
 		System.out.println(stack);
 	}
-}
-'''
+} '''
+
+	
 
 
 # Write a program to implement uses of Abstract Class .
 
 '''
 package com.java.abstractTest.example;
-
 abstract class Shape
 {
  double a, b;
@@ -158,8 +158,7 @@ public class AbstractTest
 
 # Write a program to achieve multiple inheritance in java
  
- '''
- package inheritance;
+ ''' package inheritance;
  interface Writeable
 {
     void writes();
