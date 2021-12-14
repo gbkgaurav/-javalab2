@@ -102,8 +102,7 @@ class ThreeConstructors{
 
 # Write a program to implement uses of Abstract Class .
 
-'''
-package com.java.abstractTest.example;
+'''package com.java.abstractTest.example;
 abstract class Shape
 {
  double a, b;
