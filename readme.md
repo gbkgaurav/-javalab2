@@ -296,6 +296,7 @@ class TestClass implements TestInterface
 }
 ```
 # Write a program to demonstrate the use of static methos and static variable
+
 ```
 class Student
 {
