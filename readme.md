@@ -102,8 +102,7 @@ class ThreeConstructors{
 
 # Write a program to implement uses of Abstract Class .
 
-```
-abstract class Shape{  
+``` abstract class Shape{  
 abstract void draw();  
 }  
 //In real scenario, implementation is provided by others i.e. unknown by end user  
@@ -120,7 +119,7 @@ Shape s=new Circle1();//In a real scenario, object is provided through method, e
 s.draw();  
 }  
 }  
-
+```
 
 # Write a program to achieve multiple inheritance in java
  
