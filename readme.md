@@ -294,11 +294,12 @@ class TestClass implements TestInterface
         d.show();
     }
 }
-```
+
+
 # Write a program to demonstrate the use of static methos and static variable
 
-```
-class Student
+
+```class Student
 {
 String name;
 int roll;
@@ -338,5 +339,4 @@ x.display();
 y.display();
 z.display();
     }
- }   
-```
+ }
